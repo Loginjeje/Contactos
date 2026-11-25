@@ -43,20 +43,6 @@ projecte-base/
 └── gradlew / gradlew.bat
 ```
 
-## Què has d'afegir tu
-
-| Fitxer | Què hi has de posar |
-|---|---|
-| `java/.../Contacte.kt` | Model de dades i lectura del JSON |
-| `java/.../ContactesRepository.kt` | Dades compartides, favorits i cerca |
-| `java/.../ContactesService.kt` | Petició HTTP, còpia local i baixada d'imatges |
-| `java/.../ContacteAdapter.kt` | Adapter del `RecyclerView` |
-| `java/.../ContacteDetallActivity.kt` | Fitxa del contacte i Intents implícits |
-| `java/.../Notificacions.kt` | Canal i notificació de "contactes carregats" |
-| `res/layout/item_contacte.xml` | Fila de la llista |
-| `res/layout/activity_detall.xml` | Pantalla de detall |
-| `java/.../MainActivity.kt` | Els TODO: carregar, filtrar i obrir el detall |
-
 ## Els TODO de `MainActivity.kt`
 
 | TODO | Què has de fer |
